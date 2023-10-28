@@ -15,46 +15,40 @@ public class CS4ExtraCreditRepository {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         String name = "John";
-         String subject = "Math";
-         int hours = 100;
-        
-            System.out.println("Name: " + name);
-            System.out.println("Best Subject: "+ subject);
-            System.out.println("Hours spent studying: " + hours);
-            System.out.println(" ");
-        
-         
-            String name2 = "Lee";
-            String subject2 = "Math";
-            int hours2 = 70;
+        System.out.println("Concert Audience: "); 
+      //Instance 1
+      Audience Group1 = new Audience("Naomi,","Noah,", "Nathan,", "Nick", 127.92);
+     
+      int audience1 = Group1.concertgoers;
+      Group1.grp();  
+      
+      //Instance 2
+      Audience Group2 = new Audience("Gwen,","Gavin,","George,", "Glen,", "Grant", 80.43); 
+      
+      int audience2 = Group2.concertgoers;
+      Group2.grp();  
+      
+      //Instance 3
+      Audience Group3 = new Audience("Jacob,","Jack,","James", 60.81); 
+      
+   
+      int audience3 = Group3.concertgoers;
+      Group3.grp();  
+      System.out.println("Ticket price per individual:100$\n"); 
+      
+      //Singer instance
+      Singer Singer = new Singer("Bruno Mars", 1, 0.0); 
+    
+        Singer.singerstats(); 
+        Singer.favoritesong(); 
+        Singer.performForAudience();
+        int totalaud = audience3 + audience2 + audience1; 
 
-            System.out.println("Name: " + name2);
-            System.out.println("Best Subject: "+ subject2);
-            System.out.println("Hours spent studying: " + hours2);
-            System.out.println(" ");
-        
-        
-            String name3 = "Jeff";
-            String subject3 = "Chemistry";
-            int hours3 = 30;
-                
-            System.out.println("Name: " + name3);
-            System.out.println("Best Subject: "+ subject3);
-            System.out.println("Hours spent studying: " + hours3);
-            System.out.println(" ");
-                
-        
-            int tothours = hours + hours2 + hours3;
-            System.out.println("Total hours spent studying by students " + tothours);
-                    
-            System.out.print("Lee and John have the same best subject: ");
-            boolean subjcompare = subject == subject2;  
-            System.out.println(subjcompare);
-                    
-            System.out.print("John has spent more time studying than Lee and Jeff combined: ");
-            boolean hourscompare = hours3 + hours2 < hours;  
-            System.out.println(hourscompare);
+        if(Singer.earnings == 1200){
+
+           System.out.println("\nBruno Mars has finished performing to " + totalaud  + " audience members!\n" + Singer.singername + " has changed his favorite song to " + Singer.changeFavSong());  
+           Singer.singerstats(); 
+        }
     }
   }
     
