@@ -8,7 +8,7 @@ package cs4extracreditrepository;
  *
  * @author Gabriel Gutierrez
  */
-public class CS4ExtraCreditRepository {
+public class CS4Activity4 {
 
     /**
      * @param args the command line arguments

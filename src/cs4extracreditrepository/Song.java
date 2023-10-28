@@ -9,6 +9,22 @@ package cs4extracreditrepository;
  * @author Gabriel Gutierrez
  */
 public class Song {
+
+    public String getSongname() {
+        return songname;
+    }
+
+    public double getSonglength() {
+        return songlength;
+    }
+
+    public void setSongname(String songname) {
+        this.songname = songname;
+    }
+
+    public void setSonglength(double songlength) {
+        this.songlength = songlength;
+    }
     
   private String songname; 
   private double songlength; 
@@ -19,21 +35,8 @@ public class Song {
     }
     
     public void songplay(){
-        System.out.println("Favorite Song: " + songname + "\nSong length: " + songlength + " min");  
-    }
-    
-    public String songnach (String s1){
-       
-        songname = s1; 
-        return songname; 
-    }
-    
-     public double songlnch (double s2){
-       
-         songlength = s2; 
-         return songlength; 
+        System.out.println("Favorite Song: " + getSongname() + "\nSong length: " + getSonglength() + " min");  
     }
    
-    
-   
+      
 }

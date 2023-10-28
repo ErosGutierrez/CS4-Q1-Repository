@@ -92,15 +92,51 @@ public class Audience {
      
      public int getconcertgoers(){
          
-      return concertgoers;
+      return getConcertgoers();
      
      }
      
      public void grp() {
     
-    System.out.print(person1 + " " + person2 + " " + person3 + " " + person4 + " " + person5 + " " + person6);
-    System.out.println("| No. of people in group: " + concertgoers + " | Total no. of hours spent listening to singer: " + tothours + " |\n");
+    System.out.print(getPerson1() + " " + getPerson2() + " " + getPerson3() + " " + getPerson4() + " " + getPerson5() + " " + getPerson6());
+    System.out.println("| No. of people in group: " + getConcertgoers() + " | Total no. of hours spent listening to singer: " + getTothours() + " |\n");
 }
+
+    public String getPerson1() {
+        return person1;
+    }
+
+    public String getPerson2() {
+        return person2;
+    }
+
+    public String getPerson3() {
+        return person3;
+    }
+
+    public String getPerson4() {
+        return person4;
+    }
+
+    public String getPerson5() {
+        return person5;
+    }
+
+    public String getPerson6() {
+        return person6;
+    }
+
+    public double getTothours() {
+        return tothours;
+    }
+
+    public int getConcertgoers() {
+        return concertgoers;
+    }
+
+    public void setConcertgoers(int concertgoers) {
+        this.concertgoers = concertgoers;
+    }
 
 
    
