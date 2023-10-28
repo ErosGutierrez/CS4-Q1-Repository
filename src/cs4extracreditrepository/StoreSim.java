@@ -10,7 +10,7 @@ import java.util.ArrayList;
  *
  * @author Gabriel Gutierrez
  */
-public class CS4ExtraCreditRepository {
+public class StoreSim {
 
     /**
      * @param args the command line arguments
