@@ -46,7 +46,7 @@ public class EX01_ELE_Gutierrez_GL {
                 
         
             int tothours = hours + hours2 + hours3;
-            System.out.println("Total hours spent studying by students " + tothours);
+            System.out.println ("Total hours spent studying by students " + tothours);
                     
             System.out.print("Lee and John have the same best subject: ");
             boolean subjcompare = subject.equals(subject2);  
