@@ -16,11 +16,11 @@ public class Master {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Master File");
-        System.out.println("1. Act1");
-        System.out.println("2. Act2");
-        System.out.println("3. Act3");
-        System.out.println("4. Act4");
-        System.out.println("5. Act 5");
+        System.out.println("1. ex01_ele_gutierrez_gl");
+        System.out.println("2. ex02_ele_gutierrez_gl");
+        System.out.println("3. ex03_ele_gutierrez_gl");
+        System.out.println("4. ex04_ele_gutierrez_gl");
+        System.out.println("5. ex05_ele_gutierrez_gl");
     }
     
 }
