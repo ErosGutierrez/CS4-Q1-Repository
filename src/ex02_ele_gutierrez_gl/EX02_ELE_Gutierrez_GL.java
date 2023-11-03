@@ -15,7 +15,7 @@ public class EX02_ELE_Gutierrez_GL  {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Concert Audience: "); 
+      System.out.println("Concert Audience: "); 
       //Instance 1
       Audience Group1 = new Audience("Naomi,","Noah,", "Nathan,", "Nick", 127.92);
      
