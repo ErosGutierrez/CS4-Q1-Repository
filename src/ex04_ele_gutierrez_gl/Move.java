@@ -1,4 +1,4 @@
-package cs4extracreditrepository;
+package ex04_ele_gutierrez_gl;
 
 public class Move {
     private final String name;
