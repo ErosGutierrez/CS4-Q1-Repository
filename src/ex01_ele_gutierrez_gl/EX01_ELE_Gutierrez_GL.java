@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package cs4extracreditrepository;
+package ex01_ele_gutierrez_gl;
 
 /**
  *
  * @author Gabriel Gutierrez
  */
-public class CS4ExtraCreditRepository {
+public class EX01_ELE_Gutierrez_GL {
 
     /**
      * @param args the command line arguments
@@ -49,7 +49,7 @@ public class CS4ExtraCreditRepository {
             System.out.println("Total hours spent studying by students " + tothours);
                     
             System.out.print("Lee and John have the same best subject: ");
-            boolean subjcompare = subject == subject2;  
+            boolean subjcompare = subject.equals(subject2);  
             System.out.println(subjcompare);
                     
             System.out.print("John has spent more time studying than Lee and Jeff combined: ");
