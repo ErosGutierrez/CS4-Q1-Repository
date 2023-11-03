@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package cs4extracreditrepository;
+package ex02_ele_gutierrez_gl;
 
 /**
  *
  * @author Gabriel Gutierrez
  */
-public class CS4ExtraCreditRepository {
+public class EX02_ELE_Gutierrez_GL  {
 
     /**
      * @param args the command line arguments

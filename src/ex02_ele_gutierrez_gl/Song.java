@@ -1,4 +1,4 @@
-package cs4extracreditrepository;
+package ex02_ele_gutierrez_gl;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
