@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package cs4extracreditrepository;
+package ex05_ele_gutierrez_gl;
 
 import java.util.ArrayList;
 
@@ -10,7 +10,7 @@ import java.util.ArrayList;
  *
  * @author Gabriel Gutierrez
  */
-public class StoreSim {
+public class EX05_ELE_Gutierrez_GL{
 
     /**
      * @param args the command line arguments
