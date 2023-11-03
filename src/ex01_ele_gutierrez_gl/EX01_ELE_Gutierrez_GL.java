@@ -54,7 +54,7 @@ public class EX01_ELE_Gutierrez_GL {
                     
             System.out.print("John has spent more time studying than Lee and Jeff combined: ");
             boolean hourscompare = hours3 + hours2 < hours;  
-            System.out.println(hourscompare);
+            System.out.println (hourscompare);
     }
   }
     
